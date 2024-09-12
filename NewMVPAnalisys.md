@@ -1,11 +1,11 @@
 # Análise Técnica Focada no MVP do Logo IA
 
-## Requisitos do MVP e Desafios Técnicos Associados
+## Requisitos do MVP e Desafios Técnicos
 
 1. **Consumo do Stable Diffusion**
    - Estabelecer conexão eficiente com a API do Stable Diffusion
    - Gerenciar tokens e custos associados
-   - Implementar sistema de retry para lidar com falhas de conexão
+   - Implementar sistema de retry para lidar com falhas de requests (Esse é importante pra ter, mas pode ser um dos ultimos a ser desenvolvidos)
 
 2. **Metadados nas Imagens Geradas**
    - Desenvolver estrutura de metadados (estilo, cores, nome da empresa, etc.)
