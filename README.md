@@ -8,12 +8,12 @@
 
 2. **Otimização de Prompts**:
    - Fine tuning prompt: Desenvolver um sistema para converter inputs do usuário em prompts eficazes (Analisar uso de um modelo simples de LLM para re-rescrever/incrementar os prompts).
-   - Implementar um mecanismo de feedback para melhorar a qualidade dos prompts ao longo do tempo.
+   - Possivel ou não para o mvp seria implementar um mecanismo de feedback para melhorar a qualidade dos prompts ao longo do tempo (Isso entra como fine tuning porém não tenho certeza de como seria esse algoritmo).
 
 3. **Processamento de Imagens**:
-   - Implementar algoritmos para pós-processamento das imagens geradas (ajuste de cores, redimensionamento, etc.).
-   - Garantir que o processamento seja rápido e eficiente.
-   - Garantir que seja possivel a analise das imagens geradas (Estudar uso do `sketch` do stable diffusion para gerar mais opções de uma logo já gerada).
+   - Implementar algoritmos para pós-processamento das imagens geradas (ajuste de cores, redimensionamento, check de estilo).
+   - Garantir que o processamento seja rápido e eficiente (importante mesmo pro mvp, já que em tese rodariamos um processamento após o processamento da imagem).
+   - Garantir que seja possivel a analise das imagens geradas (Estudar uso do `sketch` do stable diffusion).
 
 4. **Gerenciamento de Dados**:
    - Criar o algoritmo que irá armazenar e organizar os logotipos gerados e seus metadados.
